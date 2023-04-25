@@ -1,0 +1,19 @@
+{
+  "name": "techblogger",
+  "version": "1.0.0",
+  "description": "blog site to keep in touch with your friends and family",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanne37/blog-with-friends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanne37/blog-with-friends/issues"
+  },
+  "homepage": "https://github.com/jordanne37/blog-with-friends#readme"
+}
