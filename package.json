@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jordanne37/blog-with-friends/issues"
   },
-  "homepage": "https://github.com/jordanne37/blog-with-friends#readme"
+  "homepage": "https://github.com/jordanne37/blog-with-friends#readme",
+  "dependencies": {
+    "mysql2": "^3.2.4"
+  }
 }
