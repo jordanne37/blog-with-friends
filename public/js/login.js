@@ -4,7 +4,7 @@ const loginFormHandler = async (event) => {
     const password = document.querySelector('#password-login').value.trim();
   
     if (email && password) {
-      // Sending a POST request
+      // Sending a POST request to the login API for verification and session
       const response = await fetch('/api/users/login', {
         method: 'POST',
         body: JSON.stringify({ email, password }),
@@ -76,3 +76,4 @@ function randomPic(){
   document
     .querySelector('.signup-form')
     .addEventListener('submit', signupFormHandler);
+  

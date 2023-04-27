@@ -6,6 +6,8 @@ const showAllFriendsHandler = async () => {
     .catch((err) => { console.log(err) });
 };
 
+
+// Following button functionality
 const followingHandler = async (event) => {
     if (event) {
       const response = await fetch(`/follow`, {

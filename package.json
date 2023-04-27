@@ -2,7 +2,7 @@
   "name": "techblogger",
   "version": "1.0.0",
   "description": "blog site to keep in touch with your friends and family",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/jordanne37/blog-with-friends#readme",
   "dependencies": {
-    "mysql2": "^3.2.4"
+    "connect-session-sequelize": "^7.1.6",
+    "express-handlebars": "^7.0.7",
+    "mysql2": "^3.2.4",
+    "sequelize": "^6.31.0"
   }
 }

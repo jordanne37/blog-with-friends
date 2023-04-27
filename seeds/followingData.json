@@ -1,0 +1,30 @@
+[
+    {
+        "user_user_id": 1,
+        "followee_user_id": 2
+    },
+    {
+        "user_user_id": 1,
+        "followee_user_id": 3
+    },
+    {
+        "user_user_id": 1,
+        "followee_user_id": 4
+    },
+    {
+        "user_user_id": 1,
+        "followee_user_id": 5
+    },
+    {
+        "user_user_id": 2,
+        "followee_user_id": 1
+    },
+    {
+        "user_user_id": 2,
+        "followee_user_id": 3
+    },
+    {
+        "user_user_id": 3,
+        "followee_user_id": 1
+    }
+]

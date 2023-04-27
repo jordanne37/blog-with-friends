@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Blogger</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/profile.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div class="flex-column justify-space-around">
+    
+    <header class="display-flex justify-space-between align-center p-2">
+      <h1><a href="/">Tech Blogger</a></h1>
+      <nav>
+        {{#if logged_in}}
+        <a href="/">profile</a> | <button class="no-button" id="logout">logout</button>
+        {{else}}
+        <a href="/">login</a>
+        {{/if}}
+      </nav>
+    </header>
+
+    
+    <main class="container container-fluid mt-5">
+      {{{ body }}}
+    </main>
+    
+    
+    <footer>
+      <p><em>Created by:</em></p>
+      <ul>
+        <li><a href="https://jordanne37.github.io/My-Portfolio/" class="mr-4 hover:underline md:mr-6 ">Jordan</a></li>
+
+      </ul>
+    </footer>
+  
+  </div>
+
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  {{/if}}
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</body>
+
+</html>
