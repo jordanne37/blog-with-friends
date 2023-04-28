@@ -1,25 +1,32 @@
 {
   "name": "techblogger",
-  "version": "1.0.0",
-  "description": "blog site to keep in touch with your friends and family",
+  "version": "2.0.0",
+  "description": "",
+  "engines": {
+      "node": "16.9.0"
+     },
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node server.js",
+      "seed": "node seeds/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jordanne37/blog-with-friends.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jordanne37/blog-with-friends/issues"
-  },
-  "homepage": "https://github.com/jordanne37/blog-with-friends#readme",
   "dependencies": {
-    "connect-session-sequelize": "^7.1.6",
-    "express-handlebars": "^7.0.7",
-    "mysql2": "^3.2.4",
-    "sequelize": "^6.31.0"
+      "bcrypt": "^5.1.0",
+      "connect-session-sequelize": "^7.1.6",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "express-handlebars": "^7.0.7",
+      "express-session": "^1.17.3",
+      "jsonwebtoken": "^9.0.0",
+      "mysql2": "^3.2.3",
+      "sequelize": "^6.31.0",
+      "unique-names-generator": "^4.7.1"
+  },
+  "devDependencies": {
+      "eslint": "^8.39.0",
+      "nodemon": "^2.0.22"
   }
 }
