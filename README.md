@@ -26,7 +26,7 @@ or, with different privacy settings, publicly. Users can also communicate direct
 
 ![screenshot](/assets/tech%20blogger.jpg)
 
-[Fakebook Live](https://techblogger2023.herokuapp.com/)
+[Techblogger Live](https://techblogger2023.herokuapp.com/)
 
 ## License
 MIT License
